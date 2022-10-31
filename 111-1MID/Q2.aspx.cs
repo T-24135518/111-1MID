@@ -18,5 +18,17 @@ namespace _111_1MID {
         {
 
         }
+
+        protected void rbl_Phone_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (rbl_Phone.SelectedIndex == 2)
+            {
+                txt_Phone.Visible = false;
+            }
+            else
+            {
+                txt_Phone.Visible = true;
+            }
+        }
     }
 }
