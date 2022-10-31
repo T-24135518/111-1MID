@@ -14,7 +14,8 @@ namespace _111_1MID {
             {"西屯區", "北屯區", "東區"}
         };
 
-        protected void Page_Load(object sender, EventArgs e) {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
         }
     }
