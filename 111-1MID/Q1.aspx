@@ -21,7 +21,7 @@
                 <asp:Button ID="btn_Submit" runat="server" Text="掛號" Visible="False" Width="80px" OnClick="btn_Submit_Click"/>
             </asp:Panel><br />
             <asp:Panel ID="pl_Msg" runat="server" Width="500px" BorderWidth="1px" Visible="False">
-                <asp:Label ID="lb_Msg" runat="server" Text=""></asp:Label>
+                <asp:Label ID="lb_Msg" runat="server" Text=""></asp:Label><br /><br />
                 <asp:LinkButton ID="LinkButton1" runat="server" OnClientClick="Q1.aspx">重新填寫</asp:LinkButton>
             </asp:Panel>
         </div>
